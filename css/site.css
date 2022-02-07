@@ -1,0 +1,496 @@
+i* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6em;
+   
+}
+h1 , h2, h3{
+	font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1em;
+    color: #333;
+}
+/*general*/
+.section {
+	width: 100%;	
+}
+
+.section > .container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.section > .container::after {
+	clear: both;
+}
+/*end of general*/
+
+/*start of header*/
+.header {
+	background-color: #333;
+	float: left;
+}
+
+.header > .container > .logo {
+	margin-top: 20px;
+	float: left; 
+}
+
+.header > .container > .navbar {
+	float: right;
+}
+
+.header > .container > .navbar > ul {
+	list-style-type: none;
+	float: right;
+	padding: 20px;
+}
+
+.header > .container > .navbar > ul > li {
+	display: inline;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.header > .container > .navbar > ul > li > a  {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header > .container > .navbar > ul > li > a:hover {
+	color: #E9931B;
+}
+
+.header > .container > .navbar > ul > li > .active {
+	color: #E9931B;
+}
+/*end of header*/
+
+/*start of photo section*/
+
+.section.pic > .background {
+	width: 100%;
+	display: block;
+	position: relative;
+	background-image: url(../assets/car.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float: left;
+}
+
+.section >.background > .image >.best-service > h3 {
+	float: left;
+	position: absolute;
+	top: 66%;
+	left: 22%;
+	color: #e9931b;
+	font-size: 39px;
+	background-color: rgba(0, 0, 0, 0.71);
+	text-shadow: 0px 1px 1px #000;
+	padding: 20px;
+	font-weight: 900;
+}
+
+.section >.background > .image > .lorem {
+	float: left;
+	position: absolute;
+	top: 71%;
+	left: 48%;
+	color: #fff;
+	font-size: 16px;
+	background-color: rgba(0, 0, 0, 0.71);
+	text-shadow: 0px 1px 1px #000;
+	padding: 25px;
+}
+
+/*end of photo section*/
+.div-3 > .sep-small > .repair, .div-3 > .sep-small > .wash, .div-3 > .sep-small > .painting {
+	width: 32%;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	height: 500px;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+
+.div-3 > .sep-small > .general {
+	border-top: 4px solid #E9931B;
+	background-repeat: no-repeat;
+	background-size: 400px;
+	float: left;
+	background-color: rgb(228, 228, 228);
+}
+
+.div-3 > .sep-small .example {
+	margin-top: 70%;
+
+}
+
+.div-3 > .sep-small > .general > .example p{
+	color: #656565;
+}
+
+.div-3 > .sep-small > .general > .example h2 {
+	color: #333;
+}
+
+.div-3 > .sep-small > .repair {
+	background-image: url(../assets/service1.jpg);
+}
+
+.div-3 > .sep-small > .repair >p > h2 {
+	color: #222;
+    font-size: 24px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.div-3 > .sep-small > .repair > p {
+	width: 300px;
+	margin-top: 250px;
+	padding: 10px;
+}
+
+.div-3 > .sep-small > .wash {
+	background-image: url(../assets/service2.jpg);
+	margin-left: 20px;
+	box-sizing: border-box;
+}
+
+.div-3 > .sep-small > .wash >p > h2 {
+	color: #222;
+    font-size: 24px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.div-3 > .sep-small > .wash > p {
+	width: 300px;
+	margin-top: 250px;
+	padding: 10px;
+}
+
+.div-3 > .sep-small > .painting {
+	background-image: url(../assets/service3.jpg);
+	margin-left: 20px;
+	box-sizing: border-box;
+}
+
+.div-3 > .sep-small > .painting >p > h2 {
+	color: #222;
+    font-size: 24px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.div-3 > .sep-small > .painting > p {
+	width: 300px;
+	margin-top: 250px;
+	padding: 10px;
+	color: #656565;
+}
+
+.sep-small button {
+	background-color: #E9931B;
+ 	padding: 8px 18px;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	margin: 10px 0;
+}
+
+.sep-small a {
+	text-decoration: none;
+	color: white;
+}
+
+/*start of welcome section*/
+
+.div-4 {
+	float: left;
+	margin: 30px 0;
+	
+}
+
+.div-4 > .welcome > .img {
+	background-image: url(../assets/people.png);
+	height: 300px;
+	width: 33.3%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.div-4 > .welcome > .hello > h1 {
+	float: left;
+	margin: 10px 20px;
+  	color: #333;
+}
+
+.div-4 > .welcome > .hello > p {
+	float: left;
+	box-sizing: border-box;
+	width: 700px;
+	margin: 30px 20px;
+	color: #656565;
+}
+
+.div-4 > .welcome > .hello > .separate {
+	margin: 5px 20px;
+}
+/*end of welcome section*/
+
+/*start of news section*/
+.div-5 > .news > .main {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.div-5 > .news > .main > .why {
+	float: left;
+	margin: 10px 0;
+}
+
+.div-5 > .news > .main > .text {
+	float: left;
+	position: absolute;
+	width: 49%;
+	margin-top: 70px;
+}
+
+.div-5 > .news > .main > .text > p {
+	margin-top: 15px;
+	font-size: 15px;
+	color: #656565;
+}
+
+.div-5 > .news > .main > .latest {
+	float: left;
+	margin-top: 10px;
+	margin-left: 315px;
+}
+
+.div-5 > .news > .main > .lorem {
+	position: absolute;
+	float: left;
+	margin-top: 70px;
+	left: 50%;
+	height: 290px;
+	width: 500px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.div-5 > .news > .main > .lorem > .href > a {
+	float: left;
+	margin-left: 100px;
+	margin-top: -19%;
+	text-decoration: none;
+	color: #414042;
+	font-size: 19px;
+}
+.div-5 > .news > .main > .lorem > .href > a:hover {
+	text-decoration: underline;
+}
+
+.div-5 > .news > .main > .lorem > .href > p {
+	float: left;
+	margin-left: 132px;
+	margin-top: -11%;
+	color: #656565;
+}
+
+.div-5 > .news > .main > .lorem > .href > .voluptatem {
+	float: left;
+	margin-left: 100px;
+	margin-top: -2%;
+	color: #656565;
+}
+
+.div-5 > .news > .main > .lorem > .href > .blue {
+	float: left;
+	margin-left: 100px;
+	margin-top: -1%;
+	color: #428bca;
+	font-size: 14px;
+}
+
+.div-5 > .news > .main > .lorem > .href > .blue:hover {
+	color: #2a6496;
+}
+
+.div-5 > .news > .main > .show {
+	float: left;
+	margin-left: -170px;
+	margin-top: 31%;
+	color: #428bca;
+	font-size: 14px;
+}
+
+.div-5 > .news > .main > .show:hover {
+	color: #2a6496;
+}
+
+/*end of news section*/
+
+/*start of scroll section*/
+
+.div-6 > .advert  {
+	float: left;
+	width: 100%;
+	background-color: orange;
+	height: 200px;
+}
+
+.div-6 > .advert > .scroll {
+	margin: 50px auto;
+	width: 1170px;
+}
+
+.div-6 > .advert > .scroll > p {
+	color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    font-style: italic
+
+}
+
+.div-6 > .advert > .scroll > .name {
+	font-weight: 700;
+	margin-left: 45%;
+	color: #000;
+    font-size: 16px;
+}
+/*start of scroll section*/
+
+/*start of footer section*/
+
+.div-7 > .footer {
+	background-color: #222222;
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+
+.div-7 > .footer h4 {
+	color: #eee;
+	 font-weight: 700;
+}
+.div-7 > .footer > .big {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.div-7 > .footer .contact , .link , .post , .recent {
+	float: left;
+	width: 250px;
+	margin-top: 50px;
+	height: 250px;
+}
+
+.div-7 > .footer .contact p {
+	color: #A9A9A9;
+	margin: 30px 0;
+	font-weight: bold;
+
+}
+.div-7 > .footer .link ul {
+	margin-top: 25px;
+}
+
+
+.div-7 > .footer .link li {
+	list-style-type: none;
+	margin-top: 5px;
+}
+
+.div-7 > .footer .link a {
+	color:  #A9A9A9;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.div-7 > .footer .link a:hover {
+	color: #eee;
+}
+
+.div-7 > .footer .post > ul {
+	margin-top: 25px;
+}
+
+.div-7 > .footer .post li {
+	list-style-type: none;
+	margin-top: 5px;
+}
+.div-7 > .footer .post a {
+	color:  #A9A9A9;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.div-7 > .footer .post a:hover {
+	color: #eee;
+}
+
+.div-7 > .footer .recent > ul {
+	margin-top: 25px;
+}
+
+.div-7 > .footer .recent li {
+	list-style-type: none;
+	margin-top: 5px;
+}
+.div-7 > .footer .recent a {
+	color:  #A9A9A9;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.div-7 > .footer .recent a:hover {
+	color: #eee;
+}
+
+.div-7 > .footer > .carcare > p {
+	float: left;
+	margin-top: 2550px;
+	color: #A9A9A9;
+	font-size: 12px;
+
+}
+
+.div-7 > .footer > .big > .carcare > p {
+	display: inline;
+}
+
+.div-7 > .footer > .big .carcare {
+	float: left;
+	margin: 50px 0;
+	width: 1170px;
+	height: 30px;
+
+}
+
+.div-7 > .footer > .big .fb , .tw , .in , .pin , .go {
+	float: right;
+	width: 30px;
+	height: 30px;
+}
+
+.div-7 > .footer > .big > .carcare > .icon {
+	background-image: url(../assets/icon.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+}
+
+
+.div-7 > .footer > .big > .carcare > .fb {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: 30%;
+}
+/*end of footer section*/
